@@ -1,0 +1,74 @@
+
+Welcome to Text Mining & Optical Character Recognition with Python course. This is a comprehensive project-based course where you will learn step-by-step how to perform advanced text mining techniques using natural language processing (NLP). Additionally, you will also build an optical character recognition system using several Python libraries like EasyOCR and Tesseract. 
+The OCR system will have the capability of extracting text from various document types and images. This course perfectly combines text mining with computer vision, providing an ideal opportunity to practice your programming skills by building complex projects with real-world applications. 
+In the introduction session, you will learn the basic fundamentals of text mining and optical character recognition, such as getting to know their use cases, how those technologies work, technical challenges and limitations. Then, in the next session, we will download text datasets from Kaggle, the data will contain hundreds or even thousands of unstructured text. Before starting the project, we will learn about basic text mining techniques like tokenization, stopwords removal, stemming, lemmatization, and text normalization. This section is very important as it provides you with a basic understanding of text mining. 
+Afterward, we will start the project section, for text mining, we will have eight projects, in the first project, we will build named entity recognition system for news article, 
+In the second project, we will create topic modeling system for academic research,
+In the third project, we will create news article classification and categorization using TF-IDF,
+In the fourth project, we will build text summarization system for research paper,
+In the fifth project, we will create keyword extraction system for searching engine optimization tool, 
+In the sixth project, we will perform sentiment analysis on product review, 
+In the seventh project, we will build plagiarism detection tool, and in the last project, we will create spam email classification system. 
+In the next section, we will learn basic techniques required for OCR like image processing and region of interest identification. 
+Meanwhile, for OCR, we will have three projects, in the first project, we will build a car license plate recognition system, in the second project, we will create a handwriting recognition system, and in the last project, we will build a receipts scanner system.
+
+First of all, before getting into the course, we need to ask ourselves this question: why should we learn about text mining and optical character recognition? Well, here is my answer: Text mining and optical character recognition are essential for transforming unstructured text data into valuable insights, enabling businesses and researchers to analyze and interpret vast amounts of information efficiently. These technologies play a crucial role in automating data extraction and analysis processes, reducing manual effort and increasing accuracy. Additionally, in fields such as healthcare, finance, and legal, text mining and OCR are indispensable for managing large volumes of documents, extracting relevant information, and ensuring compliance with regulatory requirements. Moreover, by mastering these techniques, we equip ourselves with the skills needed to develop advanced data-driven applications, ultimately enhancing our ability to solve complex real-world problems through data science and artificial intelligence
+
+Below are things that you can expect to learn from this course:
+
+Learn the basic fundamentals of text mining and its use cases
+
+Learn the basic fundamentals of optical character recognition and its use cases
+
+Learn how text mining works. This section covers data collection, text preprocessing, feature extraction, text analysis and modeling
+
+Learn how optical character recognition works. This section covers capturing image, preprocessing, text localization, character segmentation, character recognition, and output generation
+
+Learn how to do tokenization and remove stopwords using NLTK
+
+Learn how to perform stemming, lemmatization, and text localization using NLTK
+
+Learn how to build named entity recognition system using Spacy and Flair
+
+Learn how to perform topic modeling using Gensim and LDA
+
+Learn how to build news article classification using TF-IDF
+
+Learn how to build text summarizer using Transformers and BART
+
+Learn how to extract keywords using Rake NLTK and Spacy
+
+Learn how to perform sentiment analysis using TextBlob and BERT
+
+Learn how to build plagiarism detection tool using TF-IDF & Cosine Similarity
+
+Learn how to build spam email detection tool using support vector machine
+
+Learn how to do image processing and identify region of interest
+
+Learn how to build car license plate recognition system using EasyOCR
+
+Learn how to build handwriting recognition system using EasyOCR
+
+Learn how to build receipt scanner system using Tesseract
+
+Ce que vous allez apprendre
+Learn the basic fundamentals of text mining and its use cases
+Learn the basic fundamentals of optical character recognition and its use cases
+Learn how text mining works. This section covers data collection, text preprocessing, feature extraction, text analysis and modeling
+Learn how optical character recognition works. This section covers image preprocessing, text localization, character segmentation, character recognition
+Learn how to do tokenization and remove stopwords using NLTK
+Learn how to perform stemming, lemmatization, and text localization using NLTK
+Learn how to build named entity recognition system using Spacy and Flair
+Learn how to perform topic modeling using Gensim and LDA
+Learn how to build news article classification using TF-IDF
+Learn how to build text summarizer using Transformers and BART
+Learn how to extract keywords using Rake NLTK and Spacy
+Learn how to perform sentiment analysis using TextBlob and BERT
+Learn how to build plagiarism detection tool using TF-IDF & Cosine Similarity
+Learn how to build spam email detection tool using support vector machine
+Learn how to do image processing and identify region of interest
+Learn how to build car license plate recognition system using EasyOCR
+Learn how to build handwriting recognition system using EasyOCR
+Learn how to build receipt scanner system using Tesseract
+

@@ -1,0 +1,62 @@
+1-
+gensim: Provides tools for topic modeling and natural language processing.
+corpora: Used for handling text corpora, including creating dictionaries and BOW representations.
+LdaModel: Implements Latent Dirichlet Allocation (LDA) for topic modeling.
+CoherenceModel: Evaluates the coherence of the generated topics.
+pandas: Used for data manipulation and analysis, specifically loading and processing CSV files.
+spacy: A natural language processing library for text preprocessing (tokenization, lemmatization, etc.).
+pyLDAvis.gensim: A library for interactive visualization of LDA topic models.
+
+2-
+files.upload(): Allows users to upload a file to the Google Colab environment. The uploaded files are stored in a dictionary (uploaded) where keys are filenames and values are file contents.
+
+3- 
+pd.read_csv(): Reads the uploaded CSV file ("Bishop.csv") into a pandas DataFrame (data).
+
+4-
+spacy.load("en_core_web_sm"): Loads SpaCy's pre-trained English model (en_core_web_sm) for processing text (e.g., tokenization, lemmatization, and stopword removal).
+
+5-
+Function preprocess(): Cleans and processes input text.
+Input: A text string.
+Steps:
+nlp(text): Processes the text using SpaCy.
+token.lemma_: Extracts lemmatized forms of tokens (e.g., "running" → "run").
+Filters: Excludes stop words (common words like "and", "the") and non-alphabetic tokens.
+Output: A list of cleaned, lemmatized tokens.
+
+6-
+Displays the first five rows of the dataset (data) for previewing.
+
+7-
+Applies the preprocess() function to each row in the "topic" column of the dataset (data) to generate a list of processed documents (processed_docs).
+
+8-
+corpora.Dictionary(): Initializes a Gensim dictionary object to map words to unique integer IDs.
+add_documents(): Updates the dictionary with tokens from the processed_docs.
+
+9-
+Bag of Words (BOW): Converts each document into a list of tuples (word_id, count) using the doc2bow() method.
+Input: Processed document.
+Output: Sparse representation of the document.
+
+10-
+LdaModel(): Creates an LDA topic model.
+corpus: The bag-of-words representation of the documents.
+id2word: Maps word IDs to words using the dictionary.
+num_topics: The number of topics to discover (set to 5).
+passes: The number of iterations through the corpus for better convergence (set to 10).
+
+11-
+print_topics(): Extracts and prints the top words for each topic.
+Iterates through each topic, prints the topic number (topic_id + 1) and its top words (topic).
+
+12-Visualizing Topics
+pyLDAvis.enable_notebook(): Enables rendering of interactive topic visualizations in a Jupyter notebook.
+pyLDAvis.gensim.prepare(): Prepares the LDA model visualization.
+Inputs:
+lda_model: The trained LDA model.
+corpus: The bag-of-words representation.
+dictionary: The word-ID mapping.
+Outputs: An interactive visualization (vis) that displays topics, their prevalence, and associated words.
+

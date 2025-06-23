@@ -1,0 +1,28 @@
+1-StemmingLemmatization
+
+#import re
+Imports Python's built-in re module for working with regular expressions. It is used for tasks like pattern matching, string searching, and text processing.
+import nltk
+
+#Imports the nltk library
+a popular toolkit for NLP. It provides various tools and resources for processing and analyzing human language.
+from nltk.stem import PorterStemmer
+
+#Imports the PorterStemmer
+a stemming algorithm that reduces words to their root form. For example, "running" becomes "run." This is useful for simplifying text analysis by standardizing words.
+from nltk.stem import WordNetLemmatizer
+
+#Imports the WordNetLemmatizer
+which performs lemmatization. Unlike stemming, lemmatization reduces words to their base or dictionary form, considering the context (e.g., "better" becomes "good").
+from nltk.tokenize import word_tokenize
+
+#Imports the word_tokenize function
+which breaks a text string into individual words (tokens). For example, "Hello, world!" becomes ["Hello", ",", "world", "!"].
+nltk.download('punkt')
+
+#Downloads the Punkt tokenizer models,
+necessary for tokenizing text into words or sentences. The Punkt package is essential for word_tokenize to work.
+nltk.download('wordnet')
+
+#Downloads the WordNet corpus,
+a lexical database of the English language, required for lemmatization using WordNetLemmatizer.
